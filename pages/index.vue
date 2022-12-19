@@ -2,6 +2,7 @@
 <div class="index-container">
   hola
   <CardHolder/>
+  <ApiTest/>
 </div>
 </template>
 
