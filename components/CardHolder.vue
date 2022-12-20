@@ -43,9 +43,9 @@ export default {};
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 8% 100%, 0% 95%);
   border-right: 5px solid #30303080;
   min-width: 400px;
-  min-height: 700px;
+  min-height: 600px;
   max-width: 400px;
-  min-height: 700px;
+  min-height: 600px;
 }
 
 .cardHolder-titleTag {
@@ -66,9 +66,11 @@ export default {};
 }
 
 img {
-  width: 300px;
+  height:  300px;
+  max-width: 300px;
   margin-left: 3rem;
   margin-top: 1rem;
+  object-fit: contain;
 }
 
 /* Button style */
